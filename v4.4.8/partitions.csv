@@ -1,0 +1,7 @@
+nvs,                data,   nvs,        0x011000,   0x20000
+phy_init,           data,   phy,        0x031000,   0x1000,     encrypted
+otadata,            data,   ota,        0x032000,   0x2000
+nvs_keys,           data,   nvs_keys,	0x034000,   0x1000,     encrypted
+nvs_secure,         data,   nvs,        0x035000,   0x40000
+ota_0,              app,    ota_0,      0x080000,   0x280000
+ota_1,              app,    ota_1,      0x300000,   0x280000

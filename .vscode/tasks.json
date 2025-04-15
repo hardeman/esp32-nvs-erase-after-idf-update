@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Buildcontainer v4.2",
+            "type": "shell",
+            "command": "docker run -it --rm --privileged --name nvs_issue_v4p2 -v ${workspaceFolder}/v4.2:/workdir:rw -w /workdir espressif/idf:v4.2 bash",
+            "problemMatcher": []
+        },
+        {
+            "label": "Buildcontainer v4.4.8",
+            "type": "shell",
+            "command": "docker run -it --rm --privileged --name nvs_issue_v4p4p8 -v ${workspaceFolder}/v4.4.8:/workdir:rw -w /workdir espressif/idf:v4.4.8 bash",
+            "problemMatcher": []
+        }
+    ]
+}
